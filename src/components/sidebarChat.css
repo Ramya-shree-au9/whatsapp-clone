@@ -1,0 +1,25 @@
+.sidechat{
+    display: flex;
+    flex-direction: row;
+    /* margin: 2px 0; */
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.062);
+    min-height: 65px;
+    line-height: 13px;
+}
+
+.sidechat:hover{
+    background-color:#F8F9F9 ;
+}
+.sidebarchat_info{
+    padding-left: 15px;
+}
+.sidename{
+    margin-top: 4px;
+}
+.chatHead{
+    text-align: center;
+    padding: 5px;
+    border-bottom: .5px solid rgba(0, 0, 0, 0.041);
+}
